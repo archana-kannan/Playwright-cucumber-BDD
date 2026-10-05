@@ -1,0 +1,26 @@
+{
+  "name": "playwright-cucumber-bdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/archana-kannan/Playwright-cucumber-BDD.git"
+  },
+  "keywords": [],
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/archana-kannan/Playwright-cucumber-BDD/issues"
+  },
+  "homepage": "https://github.com/archana-kannan/Playwright-cucumber-BDD#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.4"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^13.3.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
