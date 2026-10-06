@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test:bdd": "cross-env NODE_OPTIONS=\"--import tsx\" cucumber-js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/archana-kannan/Playwright-cucumber-BDD.git"
@@ -16,7 +18,8 @@
   "homepage": "https://github.com/archana-kannan/Playwright-cucumber-BDD#readme",
   "devDependencies": {
     "@playwright/test": "^1.63.0",
-    "@types/node": "^26.6.4"
+    "@types/node": "^26.6.4",
+    "cross-env": "^10.1.0"
   },
   "dependencies": {
     "@cucumber/cucumber": "^13.3.0",
