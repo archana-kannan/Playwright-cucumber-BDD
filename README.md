@@ -4,7 +4,7 @@ UI tests written as plain-English Gherkin scenarios, run by [Cucumber](https://g
 
 ## Prerequisites
 
-- Node.js 20 or later
+- Node.js 24 or later
 - Git Bash, PowerShell, or any terminal
 
 ## Setup
